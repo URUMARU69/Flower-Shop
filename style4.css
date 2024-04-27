@@ -1,0 +1,377 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(218, 218, 218);
+    height: 1569px;
+}
+
+header {
+    padding: 31px 118.12px 31px 120px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.t1 {
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: black;
+}
+
+.flower {
+    color: rgb(255, 143, 82);
+}
+
+.t2 {
+    display: flex;
+    /* gap: 23px; */
+}
+
+.panel {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 0 11.5px;
+    transition: 0.1s;
+}
+
+.panel:hover {
+    color: rgb(255, 143, 82);
+    font-size: 23px;
+    font-weight: 600;
+    padding: 6;
+}
+
+.home {
+    color: rgb(255, 143, 82);
+}
+
+a {
+    text-decoration: none;
+}
+
+.user {
+    width: 25.26px;
+    height: 29px;
+}
+
+.buy {
+    width: 31.88px;
+    height: 29px;
+}
+
+.t3 {
+    gap: 19.74px;
+    display: flex;
+}
+
+.con {
+    width: 1200px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    margin: 46px auto 0;
+    padding: 50px 37px 51px 52px;
+    gap: 60px;
+}
+
+.img1 {
+    width: 356px;
+    height: 326px;
+}
+
+.name {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.text {
+    color: rgb(131, 131, 131);
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 22px 0 0;
+}
+
+.mark {
+    display: flex;
+    margin: 11px 0 0;
+    gap: 7.83px;
+}
+
+.star {
+    width: 18.34px;
+    height: 17.5px;
+}
+
+.mark-text {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.saw {
+    color: rgb(131, 131, 131);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 5px 0 0;
+}
+
+.bottom-panel {
+    display: flex;
+    align-items: flex-end;
+    margin: 28px 0 0;
+    gap: 216px;
+}
+
+.each {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.links {
+    display: flex;
+    gap: 9px;
+    align-items: flex-end;
+}
+
+.like-img {
+    width: 20px;
+    height: 17.1px;
+}
+
+.favorite {
+    color: rgb(255, 143, 82);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.add-favorite {
+    border: 1px solid rgb(255, 143, 82);
+    border-radius: 5px;
+    padding: 9px 14px 10px 15px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    transition: 0.2s;
+}
+
+.add-favorite:hover{
+    background-color: black;
+    border: 1px solid black;
+}
+
+.cart-img {
+    width: 20.73px;
+    height: 18.86px;
+}
+
+.cart {
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.add-cart {
+    border-radius: 5px;
+    background: rgb(255, 143, 82);
+    border: 1px solid rgb(255, 143, 82);
+    padding: 9px 21.27px 10px 22px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    transition: 0.2s;
+}
+
+.add-cart:hover{
+    background-color: black;
+    border: 1px solid black;
+}
+
+.con2 {
+    display: flex;
+    justify-content: center;
+    margin: 37px 0 0;
+    gap: 40px;
+}
+
+.comments {
+    width: 580px;
+    height: 564px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    padding: 23px 34px 44.5px 42px;
+}
+
+.comm-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviews {
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.add-review {
+    color: rgb(255, 143, 82);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.add-review:hover{
+    color: black;
+}
+
+.comment {
+    width: 436px;
+    height: 123.5px;
+    margin: 30px 0 0;
+    display: flex;
+    gap: 23px;
+}
+
+.comm-img {
+    width: 77px;
+    height: 77px;
+}
+
+.com-name {
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.com-text {
+    color: rgb(131, 131, 131);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 10px 0 0;
+}
+
+.stars{
+    margin: 15px 0 0;
+}
+
+.recomendation {
+    width: 580px;
+    height: 564px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+}
+
+.rec-title {
+    margin: 23px 0 4px 38px;
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.rec-photos {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.rec-img {
+    width: 243px;
+    height: 223px;
+    margin: 15px 23px;
+    border-radius: 5px;
+}
+
+
+.error{
+    width: 150px;
+    height: 60px;
+    background-color: black;
+    border-radius: 7px;
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: monospace;
+    gap: 5px;
+    position: absolute;
+    top: -120px;
+}
+
+.error-button{
+    cursor: pointer;
+}
+
+.error-button:active>.error{
+    position: absolute;
+    top: 120px;
+    right: 20px;
+}
+
+.material-symbols-outlined{
+    color: white;
+}
